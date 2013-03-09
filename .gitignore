@@ -1,11 +1,3 @@
-local
-.settings
-local.properties
-project.properties
-bin
-gen
-
-# From https://github.com/github/gitignore/raw/master/Android.gitignore
 # built application files
 *.apk
 *.ap_
@@ -16,15 +8,10 @@ gen
 # Java class files
 *.class
 
-# generated GUI files
-*R.java
+# generated files
+bin/
+gen/
 
-*~
+# Local configuration file (sdk path, etc)
+local.properties
 
-# IntelliJ IDE
-*.iml
-.idea
-out
-
-build.xml
-proguard-project.txt
